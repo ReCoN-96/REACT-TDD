@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['react-app'],
+  extends: ['react-app', 'prettier'],
   plugins: ['prettier', 'jest', 'cypress'],
   parser: 'babel-eslint',
   env: {
